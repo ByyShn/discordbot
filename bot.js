@@ -38,4 +38,4 @@ client.on('guildBanAdd' , (guild, user) => {
 });
 
 
-client.login('NjAyNDIzMzQwNDIxODczNjY1.XTQosw.YVqeK4p1MeXsH0dS7-obDuyIwXM');
+client.login(process.env.Bot_Token);
